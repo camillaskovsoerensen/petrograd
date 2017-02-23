@@ -1,0 +1,94 @@
+.space {
+    width: 5vw;
+    max-width: 50px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E7DFD1;
+}
+.nav {
+    font-size: 1.06em;
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 3;
+    text-align: center;
+    background-color: #994E42;
+}
+.navbar-nav li a {
+    line-height: 50px;
+    margin-bottom: -2vw;
+}
+.navbar-nav {
+    float: none;
+    text-align: center;
+    display: inline-block;
+}
+nav img {
+    width: 60%;
+    margin-top: -0.2vw;
+}
+a {
+    color: #;
+}
+a:-webkit-any-link {
+    color: black;
+}
+.icon-bar {
+    background-color: black;
+}
+.splash img {
+    padding: 0;
+    width: 100vw;
+    height: 60vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+/* food*/
+
+.forret img {
+    width: 100%;
+}
+
+/*.forret,
+img,
+h4,
+p {
+    background-color: whitesmoke;
+}*/
+
+.forret_overskrift {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #8C473D;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.forret h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.forret p {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+}
+.forret .btn {
+    align-content: center;
+    text-align: center;
+}
+.btn {
+    background-color: #994E42;
+    border-color: black;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
