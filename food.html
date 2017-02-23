@@ -61,35 +61,25 @@
                 <h2>FORRETTER</h2>
 
             </div>
+        </section>
+    </div>
 
-            <!--forret 1-->
-            <template id="produkt_template">
-                <div class="col-xs-6 col-sm-4 col-lg-4">
-                    <h3 class="data_navn">DATA_NAVN</h3>
-                    <a href="#"><img class="img-responsive data_billede" src="imgs/small/ringbroed-druer-sm.jpg" alt="billede"> </a>
+    <div class="row produktliste">
+        <!--her skal produkter lægges ind-->
 
-                    <h4 class="pris">Pris:<span class="data_pris">DATA_PRIS</span>,-</h4>
-                    <!-- TODO: sæt udsolgt class ved udsolgt
+
+        <!--forret 1-->
+        <template id="produkt_template">
+            <div class="col-xs-6 col-sm-4 col-lg-4">
+                <h3 class="data_navn">DATA_NAVN</h3>
+                <a href="#"><img class="img-responsive data_billede" src="imgs/small/ringbroed-druer-sm.jpg" alt="billede"> </a>
+
+                <h4 class="pris">Pris:<span class="data_pris">DATA_PRIS</span>,-</h4>
+                <!-- TODO: sæt udsolgt class ved udsolgt
                 sær rabat class ved rabat -->
 
-                    <h4 class="rabatpris">pris:<span class="data_rabatpris"> DATA_RABATPRIS</span>,-</h4>
-                    <!-- skal kun vises ved rabat -->
-
-                    <h4 class="udsolgttekt">Denne ret er desværre udsolgt</h4>
-                    <!-- skal kun vises hvis udsolgt -->
-
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
-                        Læs mere
-                    </button>
-                </div>
-            </template>
-            <!--forret 2-->
-
-            <div class="col-xs-6 col-sm-4 col-lg-4">
-                <h3 class="data_navn">CAVIAR BRUSCHETTA</h3>
-                <a href="#"><img class="img-responsive data_billede" src="imgs/small/caviarbruschetta-sm.jpg" alt="billede"> </a>
-                <h4 class="udsolgt">Pris: 49,-</h4>
+                <h4 class="rabatpris">pris:<span class="data_rabatpris"> DATA_RABATPRIS</span>,-</h4>
+                <!-- skal kun vises ved rabat -->
 
                 <h4 class="udsolgttekt">Denne ret er desværre udsolgt</h4>
                 <!-- skal kun vises hvis udsolgt -->
@@ -99,26 +89,11 @@
                     Læs mere
                 </button>
             </div>
+        </template>
 
-
-
-            <!--forret 3-->
-
-            <div class="col-xs-6 col-sm-4 col-lg-4">
-                <h3 class="data_navn">BALTISK BONDESUPPE</h3>
-                <a href="#"><img class="img-responsive data_billede" src="imgs/small/baltiskbondesuppe-sm.jpg" alt="billede"> </a>
-
-                <h4 class="rabat">pris: 39,-</h4>
-                <h4 class="rabatpris">pris: 31,-</h4>
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
-                    Læs mere
-                </button>
-            </div>
-
-        </section>
     </div>
+
+
 
 
 
@@ -155,6 +130,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/petrograd.js"></script>
 </body>
 
 </html>
