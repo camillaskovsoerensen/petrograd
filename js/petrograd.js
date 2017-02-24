@@ -32,6 +32,8 @@ function visProdukt(produkt) {
 
     klon.querySelector(".data_billede").src = "imgs/small/" + produkt.billede + "-sm.jpg";
 
+    //hvis varen ikke er udsolgt - fjern udsolgt tekst
+
     if (produkt.udsolgt == false) {
         //produktet er ikke udsolgt
         // udsolgttekst skal fjernes
@@ -40,6 +42,8 @@ function visProdukt(produkt) {
     } else {
         klon.querySelector(".pris").classList.add("udsolgt");
     }
+
+    // hvis produktet er udsolgt, fjern rabatpris - streg den normale pris ud hvis der er rabat på
 
     if (produkt.udsolgt == true || produkt.rabatsats == 0) {
         //der er ikke rabat, rabat-prisen skal fjernes
